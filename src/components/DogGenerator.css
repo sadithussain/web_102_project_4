@@ -1,0 +1,72 @@
+.dog-generator {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  color: #f0f0f0;
+}
+
+.discover-button {
+  padding: 10px 20px;
+  background-color: #ff9800;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.discover-button:hover {
+  background-color: #e68900;
+}
+
+.dog-container {
+  border: 2px solid #555;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #333333;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.dog-container img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 15px auto;
+  border-radius: 15px;
+}
+
+.dog-container h2 {
+  margin: 10px 0;
+  color: #f0f0f0;
+}
+
+.dog-attributes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.attribute-button {
+  padding: 5px 10px;
+  border: 1px solid #ff9800;
+  background-color: #4a4a4a;
+  color: #ff9800;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.attribute-button:hover {
+  background-color: #ff9800;
+  color: #1a1a1a;
+  transform: scale(1.05);
+}

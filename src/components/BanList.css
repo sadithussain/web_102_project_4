@@ -1,0 +1,47 @@
+.ban-list-container {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.ban-list-container h3 {
+  color: #ff9800;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.banned-attributes-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.banned-attributes-list li {
+  margin-bottom: 8px;
+  padding: 0;
+  display: block;
+}
+
+.banned-attribute-tag {
+  padding: 6px 12px;
+  background-color: #3d3d3d;
+  color: #f0f0f0;
+  border: 1px solid #ff9800;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background-color 0.2s, box-shadow 0.2s;
+
+  appearance: none;
+  text-align: center;
+  line-height: 1;
+  width: 100%;
+}
+
+.banned-attribute-tag:hover {
+  background-color: #ff9800;
+  color: #1a1a1a;
+  box-shadow: 0 0 5px #ff980080;
+}
